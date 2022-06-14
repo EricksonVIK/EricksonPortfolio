@@ -102,3 +102,20 @@ header nav ul a:hover{
     border-radius: 15px;
     font-size: bold;
 }
+
+.title {
+    font-weight: bold;
+    border-right: solid 6px var(--tertiary-color);
+    position: relative;
+}
+/* Footer style */
+footer {
+    background-color: var(--primary-color);
+    background-size: 100%;
+    background-position: center;
+    background-position: fixed;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
