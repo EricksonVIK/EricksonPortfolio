@@ -99,7 +99,7 @@ header nav ul a:hover{
     font-size: 24px;
     padding: 0px 200px 20px 100px;
     display: inline-block;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 50px;
     height: 50px;
     border-right: 3px solid var(--tertiary-color);
@@ -115,17 +115,25 @@ header nav ul a:hover{
     flex-wrap: wrap;
 }
 .projecthighlight {
-    border: 3px solid var(--tertiary-color);
+    border: 10px solid var(--tertiary-color);
     width: 100%;
 }
 .project {
-    border: 3px solid var(--tertiary-color);
+    border: 10px solid var(--tertiary-color);
     width: 47%;
+    position: relative;
 }
 .projecthighlight, .project{
     margin: 10px;
 }
+.worktitle{
+    border: 5px solid var(--tertiary-color);
+    background-color: var(--primary-color);
+    position: relative;
+    left: 0;
+    bottom:0;
 
+}
 /* .section-title{
     border-right: 3px solid var(--tertiary-color);
     width: 200px;
