@@ -1,27 +1,3 @@
-/* Header thoughts
-    1. Add landscape as background
-    2. Eventually make it sticky
-    3. Link with hover button
-        a. About me
-        b. My work
-        c. Contact me
-    4. 3 children to Header -- name - profile photo - nav w links
-                Should I link the profile photo to something?
-    5. 4 children to nav box - About me - My work - Contact me -External link to PDF resume
-        a. hover style
-        b. round the radius and change the text - create a button
-        c. link to appropriate section of website*/
-/* Body thoughts
-    1. About me section and work section
-    2. title class for "about me" and "work"
-    3. 5 children as placeholders per the diagram */
-
-/* Footer thoughts
-    1. 2 childeren to Footer -- Contact me  - list
-    3. 3 children to list/address -- # - email - linked in
-        Possible more for linkdIn, Github */
-
-
 /* General Styling */
 *{
     margin: 0;
@@ -34,9 +10,9 @@
 :root {
     --primary-color: rgb(32,83,224);
     --secondary-color: rgb(113, 142, 223);
-    --tertiary-color: rgb(240, 159, 159);
+    --tertiary-color: rgb(255, 195, 83);
     --primary-text-color: white;
-    --secondary-text-color:black;   
+    --secondary-text-color:black;  
 }
 
 body{
@@ -51,13 +27,10 @@ header{
     background-image: url("../assets/images/beachscreenshot.png");
     background-size: 100%;
     background-position: center;
-    background-position: fixed;
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
     display: flex;
-    position: -webkit-sticky;
-    position: sticky;
 }
 
 header h1 {
@@ -74,6 +47,7 @@ header img{
     position: absolute;
     top: 10px;
     left: 70px;
+    border: 2px solid var(--tertiary-color);
 }
 
 header nav{
@@ -83,37 +57,35 @@ header nav{
 header nav ul {
     display:flex;
     list-style: none;
-    justify-content: space-betwee;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
 }
 
-header nav ul a {
+header nav ul li a {
     font-weight: lighter;
     font-size: 24px;
     position: relative;
-    padding: 15px;
+    padding-inline: 15px;
 }
 
 header nav ul a:hover{
     background:var(--primary-color);
-    color: var(--secondary-text-color);
+    color: var(--tertiary-color);
     border-radius: 15px;
     font-size: bold;
 }
 
-/* section{
+/* middle layout */
+section{
     background-color: var(--secondary-color);
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
     display: flex;
     position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-} */
+}
 .title {
     font-weight: bold;
     border-right: solid 6px var(--tertiary-color);
@@ -124,18 +96,23 @@ header nav ul a:hover{
     flex-wrap: wrap;
     align-items: flex-start;
 }
+.projects article{
+    box-sizing: border-box;
+    border: 3px solid var(--tertiary-color);
+    border-radius: 10px;
+}
 /* Footer style */
 footer {
     background-color: var(--primary-color);
-    align-items: flex-start;
+    /* align-items: flex-start; */
     flex-wrap: wrap;
     justify-content: space-between;
     display: flex;
-    position: absolute;
-    min-width: 100%;
-    max-width: 100%;
+    /* min-width: 100%;
+    max-width: 100%; */
     padding: 25px 0px;
     margin: 0;
+    width: 100%;
 }
 
 footer div{
@@ -145,12 +122,6 @@ footer div{
     flex-wrap: wrap;
     padding: 50px;
 }
-
-/* footer div{
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 50px;
-} */
 
 .contactinfo address{
     display: flex;
