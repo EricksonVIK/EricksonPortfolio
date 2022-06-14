@@ -103,19 +103,62 @@ header nav ul a:hover{
     font-size: bold;
 }
 
-.title {
+/* .title {
     font-weight: bold;
     border-right: solid 6px var(--tertiary-color);
-    position: relative;
-}
+    position: relative; 
+}*/
 /* Footer style */
 footer {
     background-color: var(--primary-color);
-    background-size: 100%;
-    background-position: center;
-    background-position: fixed;
+    /* background-size: 100%;
+    background-position: 100%; */
+    /* background-position: fixed; */
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
     display: flex;
+    position: absolute;
+    /* width: 100%; */
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
+
+footer section{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer section div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.contactinfo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* pausing li badge, need to research or perhaps future lessons will
+help prep this */
+/* .linkedin{
+    position: relative;
+    top: 0;
+    right: -15px;
+    width: 30px;
+    margin:auto;
+} */
+
+/* .badge-base__link LI-simple-link {
+    position: relative;
+    bottom: 5px;
+    right: -15px;
+    width: 50px;
+    margin:auto;
+} */
