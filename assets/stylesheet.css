@@ -123,6 +123,15 @@ header nav ul a:hover{
     width: 47%;
     position: relative;
 }
+
+.project img{
+   width: 100%;
+   height: 100%; 
+}
+
+.project div {
+    z-index: 99;
+}
 .projecthighlight, .project{
     margin: 10px;
 }
