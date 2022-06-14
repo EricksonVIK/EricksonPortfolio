@@ -21,6 +21,10 @@ body{
     background-color: var(--secondary-color);
 }
 
+/* .primaryborder{
+    border-color: solid right 3px var(--tertiary-color);
+} */
+
 /* Header styling */
 header{
     background-color: var(--primary-color);
@@ -77,66 +81,56 @@ header nav ul a:hover{
     font-size: bold;
 }
 
-/* middle layout */
-section{
-    background-color: var(--secondary-color);
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    display: flex;
+.flex-row{
+    display:flex;
+}
+
+.primarybox{
+    margin: 20px ;
     position: relative;
 }
-.title {
-    font-weight: bold;
-    border-right: solid 6px var(--tertiary-color);
-    position: relative; 
-    box-sizing:border-box;
+
+.secondarybox {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.secondarybox .section-title{
+    font-size: 24px;
+    padding: 0px 200px 20px 100px;
+    display: inline-block;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+    border-right: 3px solid var(--tertiary-color);
+}
+
+.secondarybox, p{
+    padding: 0px 10px 10px 10px;
+}
+
+.projects {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: flex-start;
 }
-.projects article{
-    box-sizing: border-box;
+.projecthighlight {
     border: 3px solid var(--tertiary-color);
-    border-radius: 10px;
-}
-/* Footer style */
-footer {
-    background-color: var(--primary-color);
-    /* align-items: flex-start; */
-    flex-wrap: wrap;
-    justify-content: space-between;
-    display: flex;
-    /* min-width: 100%;
-    max-width: 100%; */
-    padding: 25px 0px;
-    margin: 0;
     width: 100%;
 }
-
-footer div{
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 50px;
+.project {
+    border: 3px solid var(--tertiary-color);
+    width: 47%;
+}
+.projecthighlight, .project{
+    margin: 10px;
 }
 
-.contactinfo address{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contactinfo address a {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-inline: 20px;
-    font-weight: bold;
-}
+/* .section-title{
+    border-right: 3px solid var(--tertiary-color);
+    width: 200px;
+} */
+    
 /* pausing li badge, need to research or perhaps future lessons will
 help prep this */
 /* .linkedin{

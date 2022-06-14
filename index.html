@@ -38,71 +38,78 @@
         </header>
         <!-- Adding a section to see how the image looks below the header with solid background -->
         <!-- may add section below later -->
-        <!-- <section>
+        <!-- <hero>
             <img src="./assets/images/58250.jpg" alt="Erickson">
             <div>"cool subtitle"</div>
-        </section> -->
-        <!-- About me section layout -->
-        <section id="about-me">
-            <!-- <div class="title"> -->
-            <h2 class="title">About Me</h2>
-            <!-- </div>
-            <div> -->
-                <!-- placeholder for text -->
-            <p> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, aspernatur! Officia ducimus illo, perspiciatis harum quis, laborum minus corrupti dolores ipsum odio soluta magni natus, officiis maxime aperiam corporis recusandae.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui voluptate voluptas ipsa eum nostrum eius nesciunt suscipit animi quos delectus blanditiis dolore totam ipsam, minus debitis. Quos aspernatur quod numq    
-            </p>
-            <!-- </div> -->
-        </section>
-        <!-- My work section layout -->
-        <section id="my-projects">
-            <div class="title">
-                <h2>My Work</h2>
-            </div>
-            <div class="projects">
-                <!-- need to build 5 place holders -->
+        </hero> -->
+        <section class="primarybox">
+            <!-- About me section layout -->
+            <section id="about-me" class="secondarybox">
+                <div>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div>
+                    <p> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, aspernatur! Officia ducimus illo, perspiciatis harum quis, laborum minus corrupti dolores ipsum odio soluta magni natus, officiis maxime aperiam corporis recusandae.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui voluptate voluptas ipsa eum nostrum eius nesciunt suscipit animi quos delectus blanditiis dolore totam ipsam, minus debitis. Quos aspernatur quod numq    
+                    </p>
+                </div>
+            </section>
+            <!-- My work section layout -->
+            <section id="my-projects" class="secondarybox">
+                <div>
+                    <h2 class="section-title">My Work</h2>
+                </div>
+                <div class="projects" >
                 <!-- #1  -->
-                <article>
-                    <h4>Surf Report</h4>
-                    <p> MERN Stack</p>
-                </article>
+                    <div class="projecthighlight">
+                        <article>
+                            <h4>Surf Report</h4>
+                            <p> MERN Stack</p>
+                        </article>
+                    </div>
                 <!-- #2 -->
-                <article>
-                    <h4>LED Wall</h4>
-                    <p>Node/IoT</p>
-                </article>
+                    <div class="project">
+                        <article>
+                            <h4>LED Wall</h4>
+                            <p>Node/IoT</p>
+                        </article>
+                    </div>
                 <!-- #3 -->
-                <article>
-                    <h4>Calculator</h4>
-                    <p>React/JavaScript/CSS</p>
-                </article>
+                    <div class="project">
+                        <article>
+                            <h4>Calculator</h4>
+                            <p>React/JavaScript/CSS</p>
+                        </article>
+                    </div>
                 <!-- #4 -->
-                <article>
-                    <h4>Pastel Puzzles</h4>
-                    <p>MERN Stack</p>
-                </article>
+                    <div class="project">
+                        <article>
+                            <h4>Pastel Puzzles</h4>
+                            <p>MERN Stack</p>
+                        </article>
+                    </div>
                 <!-- #5 -->
-                <article>
+                    <div class="project">
+                        <article>
                     <!-- background screen shot of site
                     Research embed if possibe for background
                     for now, link page with h4 -->
-                    <h4 >
-                        <a href="https://ericksonvik.github.io/run-buddy2/" target="blank">
-                            Run Buddy
-                        </a>
-                    </h4>
-                    <p>HTML/CSS</p>
-                </article>
-            </div>
-        </section>
-        <!-- Footer layout -->
-        <footer>
-            <!-- <section> -->
-                <div class="title">
-                    <h2>Contact Information</h2>
+                            <h4 >
+                                <a href="https://ericksonvik.github.io/run-buddy2/" target="blank">
+                                Run Buddy</a>
+                            </h4>
+                            <p>HTML/CSS</p>
+                        </article>
+                    </div>
                 </div>
-                <div class="contactinfo">
+            </section>
+            <!-- contact info layout -->
+            <section id= "contact-info" class="secondarybox">
+                <div>
+                    <h2 class="section-title">Contact</br>Information</h2>
+                </div>
+                <div>
                     <address>
                         <a href="tel:919-672-7756">(919)672-7756</a>
                         <a href="mailto:chris.s.erickson@gmail.com">chris.s.erickson@gmail.com</a>
@@ -122,6 +129,34 @@
                     <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/cserickson?trk=profile-badge"></a>
                 </div> -->
             <!-- </section> -->
-        </footer>
+            </section>
+        </section>
+        <!-- Footer layout -->
+        <!-- <footer> -->
+            <!-- <section> -->
+                <!-- <div class="title">
+                    <h2>Contact Information</h2>
+                </div>
+                <div class="contactinfo">
+                    <address>
+                        <a href="tel:919-672-7756">(919)672-7756</a>
+                        <a href="mailto:chris.s.erickson@gmail.com">chris.s.erickson@gmail.com</a>
+                        <a href="https://github.com/EricksonVIK" target="blank">GitHub Repo</a>
+                        <a href="https://linkedin.com/in/cserickson" target="blank">LinkedIn</a>
+                    </address>
+                </div> -->
+                <!-- struggling way to long with this badge, will need
+                to research and add to phase 2
+                Adding a linked in reference abovein adress-->
+                <!-- <div class="linkedin">
+                    created badge on linked in and copied code for site
+                    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>        
+                    <div class="badge-base LI-profile-badge" 
+                    data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" 
+                    data-vanity="cserickson" data-version="v1">
+                    <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/cserickson?trk=profile-badge"></a>
+                </div> -->
+            <!-- </section> -->
+        <!-- </footer> -->
     </body>
 </html>
