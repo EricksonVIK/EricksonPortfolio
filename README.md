@@ -12,9 +12,8 @@ Create a website to showcase work. Continue to build throughout Bootcamp
 ### Notes
 * header - 3 children h1- image - nav portion - 
     nav portion will have 4 children
-* content - 2 sections - "about me" - "my work"
+* content - 3 sections - "about me" - "my work" - "contact me"
     "about me" 2 children - title - paragraph
     "my work" 2 children - title - projects
         projects - 5 children
-*footer - children "contact me" - address portion
-    address portion 4 parts
+    "contact me" 2 children -title - address

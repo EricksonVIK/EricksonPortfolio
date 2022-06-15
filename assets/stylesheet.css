@@ -81,24 +81,32 @@ header nav ul a:hover{
     font-size: bold;
 }
 
-.flex-row{
+/* .flex-row{
     display:flex;
-}
+} */
 
 .primarybox{
-    margin: 20px ;
-    position: relative;
+    margin: auto ;
+    position: static;
+    justify-content: space-around;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+    padding-top: 15px;
 }
 
 .secondarybox {
     display: flex;
     padding: 10px;
     justify-content: space-between;
+    position: static;
+    margin: auto;
 }
 .secondarybox .section-title{
     font-size: 24px;
     padding: 0px 200px 20px 100px;
-    display: inline-block;
+    display: relative;
     /* justify-content: space-between; */
     width: 50px;
     height: 50px;
@@ -113,36 +121,60 @@ header nav ul a:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: static;
+    width: 100%;
+    height: 500px;
+    text-align: left;
 }
 .projecthighlight {
     border: 10px solid var(--tertiary-color);
     width: 100%;
+    background-image: url("./images/blank.png");
+    position: relative;
+    height: 50%;
+    border-radius: 15px;
 }
 .project {
     border: 10px solid var(--tertiary-color);
     width: 47%;
+    height: 100px;
     position: relative;
+    background-image: url("./images/blank.png");
+    border-radius: 15px;
+
 }
 
-.project img{
+/* .project img{
    width: 100%;
    height: 100%; 
-}
+} */
 
-.project div {
-    z-index: 99;
-}
 .projecthighlight, .project{
     margin: 10px;
 }
 .worktitle{
     border: 5px solid var(--tertiary-color);
     background-color: var(--primary-color);
-    position: relative;
-    left: 0;
-    bottom:0;
+    position: absolute;
+    left: 5px;
+    bottom:5px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.connect{
+    font-size: 17px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
 
 }
+
+.connect address a {
+    padding-inline: 15px;
+    
+}
+
 /* .section-title{
     border-right: 3px solid var(--tertiary-color);
     width: 200px;
@@ -164,4 +196,12 @@ help prep this */
     right: -15px;
     width: 50px;
     margin:auto;
+} */
+
+/* footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+
 } */
