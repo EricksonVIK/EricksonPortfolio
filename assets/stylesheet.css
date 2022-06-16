@@ -205,7 +205,7 @@ header nav ul a:hover{
     border-radius: 10px;
 }
 .project {
-    border: 10px solid var(--project-border);
+    border: 7px solid var(--project-border);
     width: 47%;
     height: 125px;
     position: relative;
@@ -213,7 +213,7 @@ header nav ul a:hover{
     border-radius: 10px;
 }
 .project:hover{
-    border: 15px solid var(--project-border);
+    border: 7px solid var(--project-border);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow); */
     transition: box-shadow 0.6s linear;
@@ -240,6 +240,7 @@ header nav ul a:hover{
     border-radius: 15px;
     text-align: left;
     padding: 3px;
+    font-size:12px;
 }
 
 .worktitle:hover{
@@ -253,15 +254,29 @@ header nav ul a:hover{
     border-radius: 15px;
     text-align: left;
     padding: 3px;
+    font-size: 18px;
+    transition: font-size .6s linear;
 }
 
 .runbuddy {
-    border: 10px solid var(--tertiary-color);
+    border: 7px solid var(--project-border);
     width: 47%;
     height: 125px;
     position: relative;
-    background-image: url("./images/blank.png");
-    border-radius: 15px;
+    background-image: url("./images/Runbuddy\ screenshot.png");
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.runbuddy:hover{
+    border: 7px solid var(--project-border);
+    box-shadow: -2px -2px 0px 10px var(--project-shadow);
+    /* box-shadow: 0px 0px 0px 5px var(--project-shadow); */
+    transition: box-shadow 0.6s linear;
+    width: 47%;
+    background-image: url("./images/Runbuddy\ screenshot.png");
+    position: relative;
+    border-radius: 10px;
 }
 
 .connect{
