@@ -44,6 +44,10 @@ header h1 {
     padding: 20px;
 }
 
+header{
+    text-shadow: 2px 2px 3px var(--tertiary-color)
+}
+
 header img{
     width: 100px;
     height: auto;
@@ -80,11 +84,9 @@ header nav ul a:hover{
     color: var(--tertiary-color);
     border-radius: 15px;
     font-size: bold;
+    text-shadow: none;
 }
 
-header{
-    text-shadow: 2px 2px 3px var(--tertiary-color)
-}
 
 .primarybox{
     display: flex;
@@ -174,6 +176,14 @@ header{
     background-image: url("./images/blank.png");
     position: relative;
     height: 50%;
+    border-radius: 10px;
+}
+
+.projecthighlight:hover{
+    border: 15px solid var(--tertiary-color);
+    width: 100%;
+    background-image: url("./images/blank.png");
+    position: relative;
     border-radius: 15px;
 }
 .project {
@@ -183,7 +193,6 @@ header{
     position: relative;
     background-image: url("./images/blank.png");
     border-radius: 15px;
-
 }
 
 /* .project img{
@@ -195,13 +204,14 @@ header{
     margin: 10px;
 }
 .worktitle{
-    border: 5px solid var(--tertiary-color);
+    border: 4px solid var(--tertiary-color);
     background-color: var(--primary-color);
     position: absolute;
     left: 5px;
     bottom:5px;
     border-radius: 15px;
     text-align: left;
+    padding: 3px;
 }
 
 .connect{
