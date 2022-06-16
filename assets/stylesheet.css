@@ -103,6 +103,20 @@ header nav ul a:hover{
 }
 /* New approach - each of the secondary box will have it's own class to fit into the primary box */
 
+.hero {
+    font-size: 28px;
+    display:flex;
+    background-color:white;
+    justify-content: center;
+}
+
+.hero-text{
+    color:var(--primary-color);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: bold;
+    text-shadow: 1px 1px 2px var(--secondary-color) ;
+}
 .about-me .section-title{
     font-size: 24px;
     padding: 0px 200px 20px 100px;
