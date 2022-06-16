@@ -81,22 +81,30 @@ header nav ul a:hover{
     font-size: bold;
 }
 
+header{
+    text-shadow: 1px 1px 2px var(--tertiary-color)
+}
+
 /* .flex-row{
     display:flex;
 } */
 
 .primarybox{
-    margin: auto ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap:wrap;
+    /* margin: auto ;
     /* position: static; */
     /* justify-content: space-around; */
-    display: flex;
+    /* display: flex; */
     /* justify-content:space-between; */
-    flex-direction:column;
+    /* flex-direction:column;
     width: 100vw;
-    height: 100vh;
+    height: 100vh; */
     /* text-align: center; */
-    padding-top: 15px;
-    flex-wrap: wrap;
+    /* padding-top: 15px;
+    flex-wrap: wrap; */
 }
 /* New approach - each of the secondary box will have it's own class to fit into the primary box */
 
@@ -220,6 +228,7 @@ header nav ul a:hover{
 
 .connect address a {
     padding-inline: 15px;
+    font-style: normal;
     
 }
 
