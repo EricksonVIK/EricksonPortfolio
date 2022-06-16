@@ -17,3 +17,12 @@ Create a website to showcase work. Continue to build throughout Bootcamp
     "my work" 2 children - title - projects
         projects - 5 children
     "contact me" 2 children -title - address
+* beach background on header with shadowing and hover element engaged
+* Projects section: 1 project highlight at top, 4 additional
+    current blank image as placeholder
+    convert lower left to Run buddy showcase
+    
+##Screenshot
+https://user-images.githubusercontent.com/106018916/174167075-c4ef053a-2b27-4499-ab1b-12b4dd3f7274.png
+
+
