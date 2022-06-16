@@ -86,10 +86,6 @@ header{
     text-shadow: 2px 2px 3px var(--tertiary-color)
 }
 
-/* .flex-row{
-    display:flex;
-} */
-
 .primarybox{
     display: flex;
     justify-content: space-between;
@@ -105,12 +101,10 @@ header{
     /* justify-content: space-between; */
     width: 50px;
     height: 50px;
-    border-right: 3px solid var(--tertiary-color);
+    /* border-right: 3px solid var(--tertiary-color); */
 }
 
-.abstract p{
-    padding: 0,10px,10px,10px;
-}
+
 .my-projects .section-title{
     font-size: 24px;
     padding: 0px 200px 20px 100px;
@@ -118,7 +112,7 @@ header{
     /* justify-content: space-between; */
     width: 50px;
     height: 50px;
-    border-right: 3px solid var(--tertiary-color);
+    /* border-right: 3px solid var(--tertiary-color); */
 }
 
 .contact-info .section-title{
@@ -128,7 +122,7 @@ header{
     /* justify-content: space-between; */
     width: 50px;
     height: 50px;
-    border-right: 3px solid var(--tertiary-color);
+    /* border-right: 3px solid var(--tertiary-color); */
 }
 
 .about-me, .my-projects, .contact-info {
@@ -140,7 +134,10 @@ header{
     /* margin: auto; */
 }
 
-
+.abstract {
+    padding: 0px 5px 10px 10px;
+    border-left: 4px solid var(--tertiary-color);
+}
 /* .secondarybox {
     display: flex;
     padding: 10px;
@@ -168,9 +165,8 @@ header{
     flex-wrap: wrap;
     position: static;
     width: 100%;
-    /* height: 500px; */
-    /* text-align: left; */
     height: auto;
+    border-left: 4px solid var(--tertiary-color);
 }
 .projecthighlight {
     border: 10px solid var(--tertiary-color);
@@ -213,7 +209,7 @@ header{
     font-weight: bold;
     width: 100%;
     text-align: center;
-
+    border-left: 4px solid var(--tertiary-color);
 }
 
 .connect address a {
