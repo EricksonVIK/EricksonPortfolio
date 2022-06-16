@@ -88,7 +88,7 @@ header nav ul a:hover{
 .primarybox{
     margin: auto ;
     /* position: static; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     display: flex;
     /* justify-content:space-between; */
     flex-direction:column;
@@ -96,6 +96,7 @@ header nav ul a:hover{
     height: 100vh;
     /* text-align: center; */
     padding-top: 15px;
+    flex-wrap: wrap;
 }
 /* New approach - each of the secondary box will have it's own class to fit into the primary box */
 
@@ -107,6 +108,10 @@ header nav ul a:hover{
     width: 50px;
     height: 50px;
     border-right: 3px solid var(--tertiary-color);
+}
+
+.abstract p{
+    padding: 0,10px,10px,10px;
 }
 .my-projects .section-title{
     font-size: 24px;
@@ -133,30 +138,31 @@ header nav ul a:hover{
     padding: 10px;
     justify-content: space-between;
     position: static;
+    padding: 20px;
     /* margin: auto; */
 }
 
 
-.secondarybox {
+/* .secondarybox {
     display: flex;
     padding: 10px;
     justify-content: space-between;
     position: static;
     /* margin: auto; */
-}
+/* }
 .secondarybox .section-title{
     font-size: 24px;
     padding: 0px 200px 20px 100px;
-    display: relative;
+    display: relative; */
     /* justify-content: space-between; */
-    width: 50px;
+    /* width: 50px;
     height: 50px;
     border-right: 3px solid var(--tertiary-color);
-}
+} */
 
-.secondarybox, p{
+/* .secondarybox, p{
     padding: 0px 10px 10px 10px;
-}
+} */ 
 
 .projects {
     display: flex;
@@ -166,6 +172,7 @@ header nav ul a:hover{
     width: 100%;
     /* height: 500px; */
     /* text-align: left; */
+    height: auto;
 }
 .projecthighlight {
     border: 10px solid var(--tertiary-color);
