@@ -293,6 +293,38 @@ header nav ul a:hover{
     
 }
 
+.phone:hover {
+    border: 3px solid var(--project-border);
+    border-radius: 4px;
+    transition: border .6s linear;
+    background-color: var(--primary-color);
+    font-size: 20px;
+}
+
+.email:hover{
+    border: 3px solid var(--project-border);
+    border-radius: 4px;
+    transition: border .6s linear;
+    background-color: var(--primary-color);
+    font-size: 20px;
+}
+
+.github:hover{
+    border: 3px solid var(--project-border);
+    border-radius: 4px;
+    transition: border .6s linear;
+    background-color: var(--primary-color);
+    font-size: 20px;
+}
+
+.linkedin:hover{
+    border: 3px solid var(--project-border);
+    border-radius: 4px;
+    transition: border .6s linear;
+    background-color: var(--primary-color);
+    font-size: 20px;
+}
+
 /* .section-title{
     border-right: 3px solid var(--tertiary-color);
     width: 200px;
