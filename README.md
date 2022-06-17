@@ -1,4 +1,4 @@
-# Erickson Portofolio
+# Erickson Portfolio
 
 https://ericksonvik.github.io/EricksonPortofolio/
 
