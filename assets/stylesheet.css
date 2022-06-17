@@ -94,20 +94,12 @@ header nav ul a:hover{
     text-shadow: none;
 }
 
-
-.primarybox{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    flex-wrap:wrap;
-}
-/* New approach - each of the secondary box will have it's own class to fit into the primary box */
-
 .hero {
     font-size: 28px;
     display:flex;
     background-color:white;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-text{
@@ -117,8 +109,18 @@ header nav ul a:hover{
     font-style: bold;
     text-shadow: 1px 1px 2px var(--secondary-color) ;
 }
+
+.primarybox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap:wrap;
+    max-width: 100%;
+}
+/* New approach - each of the secondary box will have it's own class to fit into the primary box */
+
 .about-me .section-title{
-    font-size: 24px;
+    font-size: 36px;
     padding: 0px 200px 20px 100px;
     display: relative;
     /* justify-content: space-between; */
@@ -129,7 +131,7 @@ header nav ul a:hover{
 
 
 .my-projects .section-title{
-    font-size: 24px;
+    font-size: 36px;
     padding: 0px 200px 20px 100px;
     display: relative;
     /* justify-content: space-between; */
@@ -186,7 +188,7 @@ header nav ul a:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: static;
+    position: relative;
     width: 100%;
     height: auto;
     border-left: 4px solid var(--element-border);
@@ -197,7 +199,10 @@ header nav ul a:hover{
     background-image: url("./images/blank.png");
     position: relative;
     height: 50%;
+    min-height:125px;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow);
     transition: box-shadow 0.6s linear; */
 }
@@ -220,6 +225,8 @@ header nav ul a:hover{
     position: relative;
     background-image: url("./images/blank.png");
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .project:hover{
     border: 7px solid var(--project-border);
@@ -333,11 +340,6 @@ header nav ul a:hover{
     background-color: var(--primary-color);
     font-size: 20px;
 }
-
-/* .section-title{
-    border-right: 3px solid var(--tertiary-color);
-    width: 200px;
-} */
     
 /* pausing li badge, need to research or perhaps future lessons will
 help prep this */
@@ -364,3 +366,83 @@ help prep this */
     display: inline-block;
 
 } */
+
+@media screen and (max-width: 575px){
+
+.header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        background-size: auto;
+        height: auto;
+}
+header img{
+        justify-content: center;
+}
+
+header nav{
+    margin: 25px;
+}
+header nav ul{
+    flex-direction: column;
+    align-items: center;
+}
+.hero {
+    width: 100%;
+    font-size: 20px;
+}
+.primarybox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-content: center;
+    align-items: center;
+}
+.about-me, .my-projects, .contact-info{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+} 
+.abstract{
+    margin-top: 8px;
+    padding-top:8px;
+}
+.worktitle{
+    position: absolute;
+    display: flex;
+    font-size: 12px;
+    align-content: stretch;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    max-height: 40px;
+     
+}
+.project{
+    width: 100%;
+}
+.abstract, .projects, .connect{
+    border-top: 5px solid var(--element-border);
+    border-left: none;
+    padding: 8px;
+}
+.about-me .section-title{
+    width: 10%;
+    font-size: 20px;
+}
+.my-projects .section-title{
+    width:100%;
+    font-size: 20px;
+}
+.contact-info .section-title{
+    width: 100%;
+    font-size: 20px;
+}
+
+.connect {
+ font-size: 11px;
+}
+}
