@@ -1,5 +1,9 @@
 # Erickson Portofolio
 
+https://ericksonvik.github.io/EricksonPortofolio/
+
+https://github.com/EricksonVIK/EricksonPortofolio
+
 ## Purpose 
 Create a website to showcase work. Continue to build throughout Bootcamp
 
@@ -23,6 +27,7 @@ Create a website to showcase work. Continue to build throughout Bootcamp
     convert lower left to Run buddy showcase
     
 ##Screenshot
+
 https://user-images.githubusercontent.com/106018916/174167075-c4ef053a-2b27-4499-ab1b-12b4dd3f7274.png
 
 ### Items remaining
