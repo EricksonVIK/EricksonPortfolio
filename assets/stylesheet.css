@@ -6,7 +6,6 @@
     text-decoration: none;
     color: var(--primary-text-color);
 }
-
 :root {
     --primary-color: rgb(68,43,160);
     --secondary-color: rgb(113, 142, 223);
@@ -17,13 +16,11 @@
     --project-shadow:rgb(68,43,160);  
     --project-border:white; 
 }
-
 body{
     color: var(--primary-text-color);
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--secondary-color);
 }
-
 
 /* Header styling */
 header{
@@ -426,14 +423,20 @@ header nav ul{
 .about-me .section-title{
     width: 100%;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .my-projects .section-title{
     width:100%;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .contact-info .section-title{
     width: 100%;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .connect {
@@ -518,14 +521,20 @@ header nav ul{
 .about-me .section-title{
     width: 100%;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .my-projects .section-title{
     width:100%;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .contact-info .section-title{
     width: 100%;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .connect {
@@ -610,14 +619,20 @@ header nav ul{
 .about-me .section-title{
     width: 10%;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .my-projects .section-title{
     width:100%;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .contact-info .section-title{
     width: 100%;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .connect {
