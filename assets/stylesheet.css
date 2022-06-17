@@ -399,6 +399,19 @@ header nav ul{
     flex-direction: column;
     max-height: 40px;    
 }
+.worktitle:hover{
+    border: 4px solid var(--project-border);
+    background-color: var(--primary-color);
+    box-shadow: -2px -2px 0px 10px var(--project-shadow);
+    transition: box-shadow .6s linear;
+    position: absolute;
+    left: 5px;
+    bottom:5px;
+    border-radius: 15px;
+    text-align: left;
+    padding: 3px;
+    font-size: 12px;
+}
 .project{
     width: 100%;
 }
@@ -480,7 +493,19 @@ header nav ul{
     align-content: stretch;
     flex-direction: column;
     max-height: 40px;
-     
+}
+.worktitle:hover{
+    border: 4px solid var(--project-border);
+    background-color: var(--primary-color);
+    box-shadow: -2px -2px 0px 10px var(--project-shadow);
+    transition: box-shadow .6s linear;
+    position: absolute;
+    left: 5px;
+    bottom:5px;
+    border-radius: 15px;
+    text-align: left;
+    padding: 3px;
+    font-size: 12px;
 }
 .project{
     width: 100%;
@@ -559,8 +584,20 @@ header nav ul{
     font-size: 12px;
     align-content: stretch;
     flex-direction: column;
-    max-height: 40px;
-     
+    max-height: 40px;     
+}
+.worktitle:hover{
+    border: 4px solid var(--project-border);
+    background-color: var(--primary-color);
+    box-shadow: -2px -2px 0px 10px var(--project-shadow);
+    transition: box-shadow .6s linear;
+    position: absolute;
+    left: 5px;
+    bottom:5px;
+    border-radius: 15px;
+    text-align: left;
+    padding: 3px;
+    font-size: 12px;
 }
 .project{
     width: 100%;
