@@ -411,7 +411,7 @@ header nav ul{
     padding: 8px;
 }
 .about-me .section-title{
-    width: 10%;
+    width: 100%;
     font-size: 20px;
 }
 .my-projects .section-title{
@@ -491,7 +491,7 @@ header nav ul{
     padding: 8px;
 }
 .about-me .section-title{
-    width: 10%;
+    width: 100%;
     font-size: 20px;
 }
 .my-projects .section-title{
