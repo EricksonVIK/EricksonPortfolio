@@ -25,4 +25,7 @@ Create a website to showcase work. Continue to build throughout Bootcamp
 ##Screenshot
 https://user-images.githubusercontent.com/106018916/174167075-c4ef053a-2b27-4499-ab1b-12b4dd3f7274.png
 
-
+### Items remaining
+* write narrative
+* format projects as they are completed
+* create issues and respond based on feedback
