@@ -24,9 +24,6 @@ body{
     background-color: var(--secondary-color);
 }
 
-/* .primaryborder{
-    border-color: solid right 3px var(--tertiary-color);
-} */
 
 /* Header styling */
 header{
@@ -94,6 +91,7 @@ header nav ul a:hover{
     text-shadow: none;
 }
 
+/* Hero styling */
 .hero {
     font-size: 28px;
     display:flex;
@@ -110,6 +108,7 @@ header nav ul a:hover{
     text-shadow: 1px 1px 2px var(--secondary-color) ;
 }
 
+/* Primary box styling - 3 children */
 .primarybox{
     display: flex;
     justify-content: space-between;
@@ -117,8 +116,8 @@ header nav ul a:hover{
     flex-wrap:wrap;
     max-width: 100%;
 }
-/* New approach - each of the secondary box will have it's own class to fit into the primary box */
 
+/* New approach - each of the secondary box will have it's own class to fit into the primary box */
 .about-me .section-title{
     font-size: 36px;
     padding: 0px 200px 20px 100px;
@@ -128,8 +127,6 @@ header nav ul a:hover{
     height: 50px;
     /* border-right: 3px solid var(--tertiary-color); */
 }
-
-
 .my-projects .section-title{
     font-size: 36px;
     padding: 0px 200px 20px 100px;
@@ -139,7 +136,6 @@ header nav ul a:hover{
     height: 50px;
     /* border-right: 3px solid var(--tertiary-color); */
 }
-
 .contact-info .section-title{
     font-size: 24px;
     padding: 0px 200px 20px 100px;
@@ -163,6 +159,7 @@ header nav ul a:hover{
     padding: 0px 5px 10px 10px;
     border-left: 4px solid var(--element-border);
 }
+
 /* .secondarybox {
     display: flex;
     padding: 10px;
@@ -206,8 +203,6 @@ header nav ul a:hover{
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow);
     transition: box-shadow 0.6s linear; */
 }
-
-
 .projecthighlight:hover{
     border: 15px solid var(--project-border);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
@@ -238,12 +233,6 @@ header nav ul a:hover{
     position: relative;
     border-radius: 10px;
 }
-
-/* .project img{
-   width: 100%;
-   height: 100%; 
-} */
-
 .projecthighlight, .project, .runbuddy{
     margin: 10px;
 }
@@ -258,7 +247,6 @@ header nav ul a:hover{
     padding: 3px;
     font-size:12px;
 }
-
 .worktitle:hover{
     border: 4px solid var(--project-border);
     background-color: var(--primary-color);
@@ -273,7 +261,6 @@ header nav ul a:hover{
     font-size: 18px;
     transition: font-size .6s linear;
 }
-
 .runbuddy {
     border: 7px solid var(--project-border);
     width: 47%;
@@ -283,7 +270,6 @@ header nav ul a:hover{
     background-size:cover;
     border-radius: 10px;
 }
-
 .runbuddy:hover{
     border: 7px solid var(--project-border);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
@@ -294,7 +280,6 @@ header nav ul a:hover{
     position: relative;
     border-radius: 10px;
 }
-
 .connect{
     font-size: 17px;
     font-weight: bold;
@@ -302,13 +287,11 @@ header nav ul a:hover{
     text-align: center;
     border-left: 4px solid var(--element-border);
 }
-
 .connect address a {
     padding-inline: 15px;
     font-style: normal;
     
 }
-
 .phone:hover {
     border: 3px solid var(--project-border);
     border-radius: 4px;
@@ -316,7 +299,6 @@ header nav ul a:hover{
     background-color: var(--primary-color);
     font-size: 20px;
 }
-
 .email:hover{
     border: 3px solid var(--project-border);
     border-radius: 4px;
@@ -324,7 +306,6 @@ header nav ul a:hover{
     background-color: var(--primary-color);
     font-size: 20px;
 }
-
 .github:hover{
     border: 3px solid var(--project-border);
     border-radius: 4px;
@@ -332,7 +313,6 @@ header nav ul a:hover{
     background-color: var(--primary-color);
     font-size: 20px;
 }
-
 .linkedin:hover{
     border: 3px solid var(--project-border);
     border-radius: 4px;
@@ -364,8 +344,9 @@ help prep this */
     bottom: 0;
     left: 0;
     display: inline-block;
-
 } */
+
+/* First media query placed at project wrap */
 @media screen and (max-width: 1030px) {
 .header{
     display: flex;
@@ -416,9 +397,7 @@ header nav ul{
     font-size: 12px;
     align-content: stretch;
     flex-direction: column;
-    /* justify-content: flex-end; */
-    max-height: 40px;
-     
+    max-height: 40px;    
 }
 .project{
     width: 100%;
@@ -449,17 +428,19 @@ header nav ul{
 }
   
 }
+
+/* Second media query */
 @media screen and (max-width: 768px){
-    .header{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-        background-size: auto;
-        height: auto;
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-size: auto;
+    height: auto;
 }
 header img{
-        justify-content: center;
+    justify-content: center;
 }
 
 header nav{
@@ -498,7 +479,6 @@ header nav ul{
     font-size: 12px;
     align-content: stretch;
     flex-direction: column;
-    /* justify-content: flex-end; */
     max-height: 40px;
      
 }
@@ -527,18 +507,20 @@ header nav ul{
  font-size: 11px;
 }
 }
+
+/* Third media query */
 @media screen and (max-width: 575px){
 
 .header{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-        background-size: auto;
-        height: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-size: auto;
+    height: auto;
 }
 header img{
-        justify-content: center;
+    justify-content: center;
 }
 
 header nav{
@@ -577,7 +559,6 @@ header nav ul{
     font-size: 12px;
     align-content: stretch;
     flex-direction: column;
-    /* justify-content: flex-end; */
     max-height: 40px;
      
 }
