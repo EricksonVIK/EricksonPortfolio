@@ -1,8 +1,8 @@
 # Erickson Portfolio
 
-https://ericksonvik.github.io/EricksonPortofolio/
+https://ericksonvik.github.io/EricksonPortfolio/
 
-https://github.com/EricksonVIK/EricksonPortofolio
+https://github.com/EricksonVIK/EricksonPortfolio
 
 ## Purpose 
 Create a website to showcase work. Continue to build throughout Bootcamp
