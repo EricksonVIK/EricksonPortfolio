@@ -366,7 +366,167 @@ help prep this */
     display: inline-block;
 
 } */
+@media screen and (max-width: 1030px) {
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-size: auto;
+    height: auto;
+}
+header img{
+    justify-content: center;
+}
 
+header nav{
+    margin: 25px;
+}
+header nav ul{
+    flex-direction: column;
+    align-items: center;
+}
+.hero {
+    width: 100%;
+    font-size: 20px;
+}
+.primarybox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-content: center;
+    align-items: center;
+}
+.about-me, .my-projects, .contact-info{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    width: 100%;
+} 
+.abstract{
+    margin-top: 8px;
+    padding-top:8px;
+}
+.worktitle{
+    position: absolute;
+    display: flex;
+    font-size: 12px;
+    align-content: stretch;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    max-height: 40px;
+     
+}
+.project{
+    width: 100%;
+}
+.project:hover{
+    width: 100%;
+}
+.abstract, .projects, .connect{
+    border-top: 5px solid var(--element-border);
+    border-left: none;
+    padding: 8px;
+}
+.about-me .section-title{
+    width: 10%;
+    font-size: 20px;
+}
+.my-projects .section-title{
+    width:100%;
+    font-size: 20px;
+}
+.contact-info .section-title{
+    width: 100%;
+    font-size: 20px;
+}
+
+.connect {
+ font-size: 11px;
+}
+  
+}
+@media screen and (max-width: 768px){
+    .header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        background-size: auto;
+        height: auto;
+}
+header img{
+        justify-content: center;
+}
+
+header nav{
+    margin: 25px;
+}
+header nav ul{
+    flex-direction: column;
+    align-items: center;
+}
+.hero {
+    width: 100%;
+    font-size: 20px;
+}
+.primarybox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-content: center;
+    align-items: center;
+}
+.about-me, .my-projects, .contact-info{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+} 
+.abstract{
+    margin-top: 8px;
+    padding-top:8px;
+}
+.worktitle{
+    position: absolute;
+    display: flex;
+    font-size: 12px;
+    align-content: stretch;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    max-height: 40px;
+     
+}
+.project{
+    width: 100%;
+}
+.abstract, .projects, .connect{
+    border-top: 5px solid var(--element-border);
+    border-left: none;
+    padding: 8px;
+}
+.about-me .section-title{
+    width: 10%;
+    font-size: 20px;
+}
+.my-projects .section-title{
+    width:100%;
+    font-size: 20px;
+}
+.contact-info .section-title{
+    width: 100%;
+    font-size: 20px;
+}
+
+.connect {
+ font-size: 11px;
+}
+}
 @media screen and (max-width: 575px){
 
 .header{
