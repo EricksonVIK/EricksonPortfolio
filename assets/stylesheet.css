@@ -187,10 +187,11 @@ header nav ul a:hover{
     height: auto;
     border-left: 4px solid var(--element-border);
 }
-.projecthighlight {
+.gifyoda {
     border: 10px solid var(white);
     width: 100%;
-    background-image: url("./images/blank.png");
+    background-image: url("./images/Gifyoda.png");
+    background-size: contain;
     position: relative;
     height: 50%;
     min-height:125px;
@@ -200,13 +201,13 @@ header nav ul a:hover{
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow);
     transition: box-shadow 0.6s linear; */
 }
-.projecthighlight:hover{
+.gifyoda:hover{
     border: 15px solid var(--project-border);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow); */
     transition: box-shadow 0.6s linear;
     width: 100%;
-    background-image: url("./images/blank.png");
+    background-image: url("./images/Gifyoda.png");
     position: relative;
     border-radius: 10px;
 }
@@ -230,7 +231,7 @@ header nav ul a:hover{
     position: relative;
     border-radius: 10px;
 }
-.projecthighlight, .project, .runbuddy{
+.project, .runbuddy, .gifyoda{
     margin: 10px;
 }
 .worktitle{
@@ -290,7 +291,7 @@ header nav ul a:hover{
     
 }
 .phone:hover {
-    border: 3px solid var(--project-border);
+    border: 3p x solid var(--project-border);
     border-radius: 4px;
     transition: border .6s linear;
     background-color: var(--primary-color);
@@ -307,7 +308,7 @@ header nav ul a:hover{
     border: 3px solid var(--project-border);
     border-radius: 4px;
     transition: border .6s linear;
-    background-color: var(--primary-color);
+    background-image: "./";
     font-size: 20px;
 }
 .linkedin:hover{
