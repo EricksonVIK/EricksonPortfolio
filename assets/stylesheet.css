@@ -187,11 +187,11 @@ header nav ul a:hover{
     height: auto;
     border-left: 4px solid var(--element-border);
 }
-.weatherApp {
-    border: 10px solid var(white);
+.stockBuddy {
+    /* border: 10px solid var(white); */
     width: 100%;
-    background-image: url("./images/WeatherAppScreen.png");
-    background-size:cover;
+    background-image: url("./images/stock_buddy\ screenshot.png");
+    background-size:auto;
     background-repeat: no-repeat;
     /* background-position: center; */
     position: relative;
@@ -203,18 +203,18 @@ header nav ul a:hover{
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow);
     transition: box-shadow 0.6s linear; */
 }
-.weatherApp:hover{
-    border: 15px solid var(--project-border);
+.stockBuddy:hover{
+    border: 3px solid var(--project-border);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow); */
     transition: box-shadow 0.6s linear;
     width: 100%;
-    background-image: url("./images/WeatherAppScreen.png");
+    background-image: url("./images/stock_buddy\ screenshot.png");
     position: relative;
     border-radius: 10px;
 }
 .project {
-    border: 7px solid var(--project-border);
+    /* border: 7px solid var(--project-border); */
     width: 47%;
     height: 125px;
     position: relative;
@@ -224,7 +224,7 @@ header nav ul a:hover{
     flex-wrap: wrap;
 }
 .project:hover{
-    border: 7px solid var(--project-border);
+    border: 3px solid var(--project-border);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow); */
     transition: box-shadow 0.6s linear;
@@ -235,11 +235,11 @@ header nav ul a:hover{
 }
 .project, .runbuddy, .gifyoda, .weatherApp{
     margin: 10px;
-    border: 7px solid var(--project-border);
+    /* border: 7px solid var(--project-border); */
 
 }
 .worktitle{
-    border: 4px solid var(--project-border);
+    border: 1px solid var(--project-border);
     background-color: var(--primary-color);
     position: absolute;
     left: 5px;
@@ -250,7 +250,7 @@ header nav ul a:hover{
     font-size:12px;
 }
 .worktitle:hover{
-    border: 4px solid var(--project-border);
+    border: 2px solid var(--project-border);
     background-color: var(--primary-color);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
     transition: box-shadow .6s linear;
@@ -264,7 +264,7 @@ header nav ul a:hover{
     transition: font-size .6s linear;
 }
 .gifyoda {
-    border: 7px solid var(--project-border);
+    /* border: 7px solid var(--project-border); */
     width: 47%;
     height: 125px;
     position: relative;
@@ -274,7 +274,7 @@ header nav ul a:hover{
     border-radius: 10px;
 }
 .gifyoda:hover{
-    border: 7px solid var(--project-border);
+    border: 2px solid var(--project-border);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow); */
     transition: box-shadow 0.6s linear;
@@ -288,7 +288,7 @@ header nav ul a:hover{
 }
 
 .readme {
-    border: 7px solid var(--project-border);
+    /* border: 7px solid var(--project-border); */
     width: 47%;
     height: 125px;
     position: relative;
@@ -298,7 +298,7 @@ header nav ul a:hover{
     border-radius: 10px;
 }
 .readme:hover{
-    border: 7px solid var(--project-border);
+    border: 2px solid var(--project-border);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow); */
     transition: box-shadow 0.6s linear;
@@ -312,7 +312,7 @@ header nav ul a:hover{
 }
 
 .teamgen {
-    border: 7px solid var(--project-border);
+    /* border: 7px solid var(--project-border); */
     width: 47%;
     height: 125px;
     position: relative;
@@ -322,7 +322,7 @@ header nav ul a:hover{
     border-radius: 10px;
 }
 .teamgen:hover{
-    border: 7px solid var(--project-border);
+    border: 2px solid var(--project-border);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow); */
     transition: box-shadow 0.6s linear;
@@ -337,22 +337,22 @@ header nav ul a:hover{
 
 
 
-.runbuddy {
-    border: 7px solid var(--project-border);
+.weatherApp {
+    /* border: 7px solid var(--project-border); */
     width: 47%;
     height: 125px;
     position: relative;
-    background-image: url("./images/Runbuddy\ screenshot.png");
+    background-image: url("./images/WeatherAppScreen.png");
     background-size:cover;
     border-radius: 10px;
 }
-.runbuddy:hover{
-    border: 7px solid var(--project-border);
+.weatherApp:hover{
+    border: 2px solid var(--project-border);
     box-shadow: -2px -2px 0px 10px var(--project-shadow);
     /* box-shadow: 0px 0px 0px 5px var(--project-shadow); */
     transition: box-shadow 0.6s linear;
     width: 47%;
-    background-image: url("./images/Runbuddy\ screenshot.png");
+    background-image: url("./images/WeatherAppScreen.png");
     position: relative;
     border-radius: 10px;
 }
